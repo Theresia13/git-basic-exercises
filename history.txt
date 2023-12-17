@@ -1,0 +1,204 @@
+    1  apt-get install git
+    2  sudo apt-get install git
+    3  git --version
+    4  pwd
+    5  ls
+    6  ls /documents
+    7  ls /Documents
+    8  ls / Documents
+    9  ls /
+   10  ls /data
+   11  ls / data
+   12  ls /etc/perl
+   13  cd Documents
+   14  pwd
+   15  cd home
+   16  cd `
+   17  pwd
+   18  ls
+   19  mkdir Code
+   20  cd Code
+   21  mkdir git-basic-exercises
+   22  cd git-basic-exercises
+   23  ls -a
+   24  git init git-basic-exercises
+   25  ls -a
+   26  git status
+   27  touch README.md
+   28  ls -a
+   29  git status
+   30  pwd
+   31  cd Code
+   32  ls
+   33  cd git-basic-exercises
+   34  git init
+   35  ls-a
+   36  ls -a
+   37  git status
+   38  touch README.md
+   39  ls -a
+   40  git status
+   41  git log
+   42  git add README.md
+   43  git status
+   44  git reset
+   45  git status
+   46  git add README.md
+   47  git commit -m "initial commit"
+   48  git config -- global user.email lerato.likhama92@gmail.com
+   49  git config --global user.email lerato.likhama92@gmail.com
+   50  git config --global user.name Lerato
+   51  git commit -m "initial commit"
+   52  git log
+   53  nano README.md
+   54  cat README.md
+   55  git status
+   56  git add README.md
+   57  git commit -m "second commit"
+   58  nano README.md
+   59  git add README.md
+   60  git commit -m "third commit"
+   61  git log
+   62  git checkout 62411cc2d540d9f6297be37688919306dbe368ee
+   63  cat README.md
+   64  git checkout main
+   65  git checkout Main
+   66  cat README.md
+   67  git checkout 6ea7eded591886083a08635909ef6b266fdbc0dc
+   68  cat README.MD
+   69  cat README.md
+   70  git branch
+   71  git branch -m main
+   72  git checkout master
+   73  git branch
+   74  git branch -m main
+   75  git branch
+   76  git branch milkshake-flavours
+   77  git branch
+   78  git checkout milkshake-flavours
+   79  git branch
+   80  nano milkshakes.md
+   81  git status
+   82  git add milkshakes.md
+   83  git commit -m "added initial flavours"
+   84  git log
+   85  git checkout main
+   86  ls -a
+   87  git log
+   88  git checkout main
+   89  git branch history
+   90  git checkout history
+   91  git log
+   92  git checkout milkshake-flavours
+   93  git log
+   94  git checkout main
+   95  git log
+   96  git branch
+   97  history > history.txt
+   98  git log
+   99  git add history.txt
+  100  git commit -m "added history"
+  101  git log
+  102  git checkout history
+  103  git log
+  104  git checkout milkshake-flavours
+  105  git log
+  106  git checkout history
+  107  git log
+  108  git checkout main
+  109  git log
+  110  git checkout main
+  111  cat README.md
+  112  touch README.md
+  113  nano README.md
+  114  git add README.md
+  115  git commit -m "random readme changes"
+  116  git checkout history
+  117  cat README.md
+  118  rm README.md
+  119  echo "booya" > README.md
+  120  cat README.md
+  121  git add README.md
+  122  git log
+  123  git status
+  124  git add README.md
+  125  git commit -m "rewrote readme"
+  126  git log
+  127  git checkout main
+  128  ls
+  129  rm history.txt
+  130  ls
+  131  git checkout history
+  132  history > history.txt
+  133  git add history.txt
+  134  git commit -m added history"
+  135  q
+  136  git commit -m "added history"
+  137  q
+  138  pwd
+  139  cd code
+  140  cd Code
+  141  cd git-basic-exercises
+  142  git branch
+  143  ls
+  144  git log
+  145  git status
+  146  git add history.txt
+  147  git commit -m "added history"
+  148  git checkout main
+  149  ls
+  150  git checkout history
+  151  ls
+  152  git checkout main
+  153  git log
+  154  git checkout main
+  155  pwd
+  156  cd Code
+  157  cd ../
+  158  ls
+  159  ls -a
+  160  mkdir git-basic-exercises
+  161  cd git-basic-exercises
+  162  git init
+  163  git branch
+  164  ls
+  165  ls -a
+  166  git status
+  167  git log
+  168  touch README.md
+  169  git add README.md
+  170  git commit -m "initial commit"
+  171  git log
+  172  nano README.md
+  173  cat README.md
+  174  git status
+  175  git commit -m "second commit
+  176  exit
+  177  esc
+  178  cd /Code/git-basic-exercise
+  179  cd /Code/git-basic-exercises
+  180  cd Code
+  181  cd git-basic-exercises
+  182  git status
+  183  git add README.md
+  184  git commit -m "second commit"
+  185  nano README.md
+  186  git add README.md
+  187  git commit -m "third commit"
+  188  git log
+  189  git branch
+  190  git branch -m main
+  191  git branch
+  192  git branch milkshake-flavours
+  193  git branch
+  194  git checkout milkshake-flavours
+  195  nano milkshakes.md
+  196  git status
+  197  git add milkshakes.md
+  198  git commit -m "added initial flavours"
+  199  git checkout main
+  200  git log
+  201  git branch history
+  202  git checkout history
+  203  git log
+  204  history > history.txt
